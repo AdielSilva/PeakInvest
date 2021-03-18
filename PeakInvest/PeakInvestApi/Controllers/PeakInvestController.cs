@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PeakInvestAPI.Models;
 
-namespace PeakInvestApi.Controllers
+namespace PeakInvestAPI.Controllers
 {
+
     [EnableCors("PeakInvestPolicy")]
     [Route("api/[controller]")]
-    [ApiController] 
+    [ApiController]
     public class PeakInvestController : ControllerBase
     {
         //[EnableCors("PeakInvestPolicy")]
@@ -26,7 +28,7 @@ namespace PeakInvestApi.Controllers
             };
 
             var result = lista.Find(x => x.Key == id).Value;
-            if(String.IsNullOrEmpty(result))
+            if (String.IsNullOrEmpty(result))
             {
                 return NotFound(id);
             }
@@ -36,21 +38,21 @@ namespace PeakInvestApi.Controllers
 
         // POST api/<PeakInvest>
         [HttpPost]
-        public IActionResult Post([FromBody]Simulacao simulado)
+        public IActionResult Post([FromBody] SimulacaoModel simulado)
         {
-            double result =0.0;
+            double result = 0.0;
             try
             {
-                 result = simulado.QtdParcelas * simulado.Valor * 1.05;
+                result = simulado.QtdParcelas * simulado.Valor * 1.05;
             }
             catch
             {
                 return StatusCode(500);
             }
-           
+
             return Ok(result);
         }
 
-       
+
     }
 }

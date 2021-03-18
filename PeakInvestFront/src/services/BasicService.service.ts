@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import {SimulacaoModel} from '../models/Simulacao.model';
+
 
 
 
@@ -20,7 +19,7 @@ getCliente(id: any) {
 }
 
 getValor(valor: number, qtdParcelas: number){
-  return this.http.post<any>('http://localhost:60286/api/PeakInvest', { Valor: valor, QtdParcelas:qtdParcelas}, {headers:headers});
+  return this.http.post<any>(baseUrl, { Valor: valor, QtdParcelas:qtdParcelas}, {headers:headers});
 }
 }
 

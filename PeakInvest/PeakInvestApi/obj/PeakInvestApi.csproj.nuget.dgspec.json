@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj": {}
+    "C:\\Desenvolvimento\\Teste_Peak_Invest\\src\\PeakInvest\\PeakInvestAPI\\PeakInvestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj": {
+    "C:\\Desenvolvimento\\Teste_Peak_Invest\\src\\PeakInvest\\PeakInvestAPI\\PeakInvestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\Teste_Peak_Invest\\src\\PeakInvest\\PeakInvestAPI\\PeakInvestAPI.csproj",
         "projectName": "PeakInvestAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj",
+        "projectPath": "C:\\Desenvolvimento\\Teste_Peak_Invest\\src\\PeakInvest\\PeakInvestAPI\\PeakInvestAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\obj\\",
+        "outputPath": "C:\\Desenvolvimento\\Teste_Peak_Invest\\src\\PeakInvest\\PeakInvestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
