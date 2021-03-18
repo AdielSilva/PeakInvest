@@ -1,0 +1,19 @@
+<div class="containter text-center">
+  <h1>Simular Emprestimo</h1>
+  <br>
+    <div id="SimuladorEmprestimo">
+      <hr>
+      <p>Valor:   <input  type="number" (input)="atualizaValor($event)"></p>
+      <p>Parcelas:   <input  type="number" (input)="atualizaParcela($event)"></p>
+      <br>
+      <button (click) = getValor()>Consultar valor</button>
+      <button (click) = limparCampos()>Limpar</button>
+    </div>
+    <br>
+<h3 *ngIf="Resultado != 0">{{Resultado | currency:'BRL'}}</h3>
+<hr>
+</div>
+
+<div>
+
+  
