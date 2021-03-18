@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvestApi", "WebApplication1\PeakInvestApi.csproj", "{E99DFC94-B021-437F-96A5-BE2C5A52713B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakInvestAPI", "PeakInvestAPI\PeakInvestAPI.csproj", "{69DBD883-B0C0-4A85-A888-1F0D3D4DE99D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E99DFC94-B021-437F-96A5-BE2C5A52713B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E99DFC94-B021-437F-96A5-BE2C5A52713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E99DFC94-B021-437F-96A5-BE2C5A52713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E99DFC94-B021-437F-96A5-BE2C5A52713B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DBD883-B0C0-4A85-A888-1F0D3D4DE99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DBD883-B0C0-4A85-A888-1F0D3D4DE99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DBD883-B0C0-4A85-A888-1F0D3D4DE99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DBD883-B0C0-4A85-A888-1F0D3D4DE99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {68474C34-6578-4229-AC2E-A31CDF949393}
+		SolutionGuid = {F32EF07E-83F5-4F15-A877-A9B73F674309}
 	EndGlobalSection
 EndGlobal

@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\PeakInvest\\WebApplication1\\PeakInvestApi.csproj",
-      "projectName": "PeakInvestApi",
-      "projectPath": "C:\\Users\\User\\source\\repos\\PeakInvest\\WebApplication1\\PeakInvestApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj",
+      "projectName": "PeakInvestAPI",
+      "projectPath": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\PeakInvestAPI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\PeakInvest\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\PeakInvestAPI\\PeakInvestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

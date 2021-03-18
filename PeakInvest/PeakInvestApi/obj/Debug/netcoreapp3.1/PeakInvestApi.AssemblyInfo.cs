@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PeakInvestApi")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PeakInvestAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PeakInvestApi")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PeakInvestApi")]
+[assembly: System.Reflection.AssemblyProductAttribute("PeakInvestAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PeakInvestAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace PeakInvestApi
+namespace PeakInvestAPI
 {
     public class Startup
     {
@@ -49,8 +49,6 @@ namespace PeakInvestApi
             app.UseRouting();
             app.UseCors();
             app.UseAuthorization();
-
-            
 
             app.UseEndpoints(endpoints =>
             {
